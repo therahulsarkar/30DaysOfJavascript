@@ -1,8 +1,9 @@
-/*Primitive datatype [Immutable-> Non modifiable]: Numbers-> Int, float 
+/*---------------------------------------------------------------------------
+Primitive datatype [Immutable-> Non modifiable]: Numbers-> Int, float 
 Strings, Boolean, Null, Undefined.
 
 Non-primitive datatype [mutable-> Modifiable]: Object, Functions, Arrays
-*/
+-----------------------------------------------------------------------------*/
 let nums = [1,2,3];
 console.log(nums); //1,2,3
 
@@ -69,7 +70,9 @@ console.log(paragraph);
 let nam = "Rahul", age= 21;
 console.log(`Hi I'm ${nam}, I'm ${age} years old`);
 
-/* String method
+/*--------------------------------------------------------------------------------------------------------
+String method
+
 1. length (returns no of characters including empty spaces)
 2. Accessing characters: name[2] -> Get the 3rd character
 3. toUpperCase() ->Changes string to uppercase
@@ -92,7 +95,7 @@ console.log(`Hi I'm ${nam}, I'm ${age} years old`);
 18. search() -> Takes a substring & returns the index of the first match
 19. match() ->  Takes an substring & returns an array if there is match if not then returns null
 20.repeat() ->  It takes a number as argument and it returns the repeated version of the string.
-*/
+-----------------------------------------------------------------------------------------------------*/
 
 //Getting the last index of the string
 let string1 = "Hey buddy wassup?", lastIndex = string1.length - 1;
@@ -138,7 +141,7 @@ console.log(txt.match(regEx))  // ["2", "0", "1", "9", "3", "0", "2", "0", "2", 
 console.log(txt.match(/\d+/g)) // ["2019", "30", "2020"]
 
 
-/*--------------------------------------------
+/*----------------------------------------------------------------------
 //?Type casting -> casting converts one datatype to another datatype
 String to int: 
 parseInt()  Number()  +
@@ -148,7 +151,7 @@ parseFloat()  Number() +
 
 Float to int
 parseInt()
------------------------------------------------*/
+-----------------------------------------------------------------------*/
 let number = '100' 
 console.log(parseInt(number));  //100
 console.log(Number(number));
