@@ -1,13 +1,8 @@
-/* JSON--------------------
+/* JSON-------------------------------------------------------
 ? The keys of JSON object should be with double quotes
 * JSON to object -> JSON.parse();
 * Object to JSON -> JSON.stringify();
-* 
-
-
-
-
-------------------------------*/
+------------------------------------------------------------*/
 // {
 //     "users":[
 //         {
