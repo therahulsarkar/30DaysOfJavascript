@@ -3,25 +3,6 @@
 * JSON to object -> JSON.parse();
 * Object to JSON -> JSON.stringify();
 ------------------------------------------------------------*/
-// {
-//     "users":[
-//         {
-//             "name": "A",
-//             "age" : 20,
-//             "job": "Developer"
-//         },
-//         {
-//             "name": "B",
-//             "age" : 25,
-//             "job": "businessman"
-//         },
-//         {
-//         "name": "C",
-//             "age" : 30,
-//             "job": "Service"
-//         }
-//     ]
-// }
 
 //JSON.parse()
 var text = '{ "name":"Rahul", "age":"21", "city":"Malda"}';
